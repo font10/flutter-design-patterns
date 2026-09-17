@@ -1,0 +1,9 @@
+import 'package:flutter_design_patterns/design-patterns/singleton/example_state_base.dart';
+
+final class ExampleStateWithoutSingleton extends ExampleStateBase {
+  ExampleStateWithoutSingleton() {
+    initialText =
+        "A new 'ExampleStateWithoutSingleton' instance has been created.";
+    stateText = initialText;
+  }
+}

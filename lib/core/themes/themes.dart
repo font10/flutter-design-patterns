@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_design_patterns/constants.dart';
+import 'package:flutter_design_patterns/core/constants/constants.dart';
 
 final ThemeData lightTheme = ThemeData(
   scaffoldBackgroundColor: lightBackgroundColor,
